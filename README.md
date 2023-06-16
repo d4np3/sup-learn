@@ -2,30 +2,44 @@
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+The aim of this module's homework is to analyse potential customers borrowing capacity with consideration of their previous history, based on collected data from a p2p lending company. Based on borrowers data, loan size,interest rate, borrower income, debt to income ratio, number of accounts and whether they are a decent person (derogatory_marks) *jokes* 
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+## Process
+
+The data was separted with loan_status as the label and the remaining columns used as features. I trained a logistic regression model using the source data and reviewed how it performed. I then used RandomOverSampler to resample the data and another logistic regression model was trained using the new data.
 
 ## Results
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
-* Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+* Machine Learning Model 1
+<p align="center">
+<img src="log1.png" width=75% height=75%> <br />
+Original Data Set
+</p>
+  * Balanced Accuracy Score   : 0.94
+  * Healthy Loan Precision    : 1.00
+  * High-risk Loan Precision  : 0.87
+  * Healthy Loan Recall       : 1.00
+  * High-risk Loan Recall     : 0.89
 
-
-
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+* Machine Learning Model 2
+<p align="center">
+<img src="log2.png" width=75% height=75%> <br />
+Resampled Data Set
+</p>
+  * Balanced Accuracy Score   : 0.99
+  * Healthy Loan Precision    : 1.00
+  * High-risk Loan Precision  : 0.87
+  * Healthy Loan Recall       : 1.00
+  * High-risk Loan Recall     : 1.00
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+You can see both models are pretty accurate, but the second is more so - using the resampled data. You can see this with the higher Balanced Accuracy Score and Recall rates.
 
-If you do not recommend any of the models, please justify your reasoning.
+Performance-wise, it depends on the result we are looking for. The idea is to grade the risk correctly so the source data used for training is vital to get useful information out of the model.
+
+## Back to Fintech Home
+
+* [Fintech Bootcamp Home](https://github.com/d4np3/fintech)
