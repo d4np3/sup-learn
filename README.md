@@ -12,27 +12,30 @@ The data was separted with loan_status as the label and the remaining columns us
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
-* Machine Learning Model 1
-<p align="center">
-<img src="log1.png" width=75% height=75%> <br />
-Original Data Set
-</p>
+* __*Machine Learning Model 1*__
   * Balanced Accuracy Score   : 0.94 <br />
   * Healthy Loan Precision    : 1.00 <br />
   * High-risk Loan Precision  : 0.87 <br />
   * Healthy Loan Recall       : 1.00 <br />
   * High-risk Loan Recall     : 0.89 <br />
-
-* Machine Learning Model 2
 <p align="center">
-<img src="log2.png" width=75% height=75%> <br />
-Resampled Data Set
+<img src="log1.png" width=75% height=75%> <br />
+Original Data Set
 </p>
+
+<br />
+
+* __*Machine Learning Model 2*__
   * Balanced Accuracy Score   : 0.99 <br />
   * Healthy Loan Precision    : 1.00 <br />
   * High-risk Loan Precision  : 0.87 <br />
   * Healthy Loan Recall       : 1.00 <br />
   * High-risk Loan Recall     : 1.00 <br />
+<p align="center">
+<img src="log2.png" width=75% height=75%> <br />
+Resampled Data Set
+</p>
+ 
 
 ## Summary
 
