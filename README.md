@@ -17,22 +17,22 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 <img src="log1.png" width=75% height=75%> <br />
 Original Data Set
 </p>
-  * Balanced Accuracy Score   : 0.94
-  * Healthy Loan Precision    : 1.00
-  * High-risk Loan Precision  : 0.87
-  * Healthy Loan Recall       : 1.00
-  * High-risk Loan Recall     : 0.89
+  * Balanced Accuracy Score   : 0.94 <br />
+  * Healthy Loan Precision    : 1.00 <br />
+  * High-risk Loan Precision  : 0.87 <br />
+  * Healthy Loan Recall       : 1.00 <br />
+  * High-risk Loan Recall     : 0.89 <br />
 
 * Machine Learning Model 2
 <p align="center">
 <img src="log2.png" width=75% height=75%> <br />
 Resampled Data Set
 </p>
-  * Balanced Accuracy Score   : 0.99
-  * Healthy Loan Precision    : 1.00
-  * High-risk Loan Precision  : 0.87
-  * Healthy Loan Recall       : 1.00
-  * High-risk Loan Recall     : 1.00
+  * Balanced Accuracy Score   : 0.99 <br />
+  * Healthy Loan Precision    : 1.00 <br />
+  * High-risk Loan Precision  : 0.87 <br />
+  * Healthy Loan Recall       : 1.00 <br />
+  * High-risk Loan Recall     : 1.00 <br />
 
 ## Summary
 
